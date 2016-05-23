@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1350D10D1CF3B3E00003DBD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1350D10C1CF3B3E00003DBD2 /* AppDelegate.swift */; };
+		1350D10F1CF3B3E00003DBD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1350D10E1CF3B3E00003DBD2 /* ViewController.swift */; };
+		1350D1121CF3B3E00003DBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1350D1101CF3B3E00003DBD2 /* Main.storyboard */; };
+		1350D1141CF3B3E00003DBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1350D1131CF3B3E00003DBD2 /* Assets.xcassets */; };
+		1350D1171CF3B3E00003DBD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1350D1151CF3B3E00003DBD2 /* LaunchScreen.storyboard */; };
+		1350D11C1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1350D11B1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit App.app */; };
+		1350D1221CF3B3E00003DBD2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1350D1201CF3B3E00003DBD2 /* Interface.storyboard */; };
+		1350D1241CF3B3E00003DBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1350D1231CF3B3E00003DBD2 /* Assets.xcassets */; };
+		1350D12B1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1350D12A1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1350D1301CF3B3E10003DBD2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1350D12F1CF3B3E10003DBD2 /* InterfaceController.swift */; };
+		1350D1321CF3B3E10003DBD2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1350D1311CF3B3E10003DBD2 /* ExtensionDelegate.swift */; };
+		1350D1341CF3B3E10003DBD2 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1350D1331CF3B3E10003DBD2 /* ComplicationController.swift */; };
+		1350D1361CF3B3E10003DBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1350D1351CF3B3E10003DBD2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1350D11D1CF3B3E00003DBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1350D1011CF3B3E00003DBD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1350D11A1CF3B3E00003DBD2;
+			remoteInfo = "UtilitySmallRingImage WatchKit App";
+		};
+		1350D12C1CF3B3E00003DBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1350D1011CF3B3E00003DBD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1350D1291CF3B3E00003DBD2;
+			remoteInfo = "UtilitySmallRingImage WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1350D13D1CF3B3E10003DBD2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1350D12B1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1350D1411CF3B3E10003DBD2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1350D11C1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1350D1091CF3B3E00003DBD2 /* UtilitySmallRingImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UtilitySmallRingImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1350D10C1CF3B3E00003DBD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1350D10E1CF3B3E00003DBD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1350D1111CF3B3E00003DBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1350D1131CF3B3E00003DBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1350D1161CF3B3E00003DBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1350D1181CF3B3E00003DBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1350D11B1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UtilitySmallRingImage WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1350D1211CF3B3E00003DBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1350D1231CF3B3E00003DBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1350D1251CF3B3E00003DBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1350D12A1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UtilitySmallRingImage WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1350D12F1CF3B3E10003DBD2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1350D1311CF3B3E10003DBD2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1350D1331CF3B3E10003DBD2 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1350D1351CF3B3E10003DBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1350D1371CF3B3E10003DBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1350D1061CF3B3E00003DBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1350D1271CF3B3E00003DBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1350D1001CF3B3E00003DBD2 = {
+			isa = PBXGroup;
+			children = (
+				1350D10B1CF3B3E00003DBD2 /* UtilitySmallRingImage */,
+				1350D11F1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit App */,
+				1350D12E1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit Extension */,
+				1350D10A1CF3B3E00003DBD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1350D10A1CF3B3E00003DBD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1350D1091CF3B3E00003DBD2 /* UtilitySmallRingImage.app */,
+				1350D11B1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit App.app */,
+				1350D12A1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1350D10B1CF3B3E00003DBD2 /* UtilitySmallRingImage */ = {
+			isa = PBXGroup;
+			children = (
+				1350D10C1CF3B3E00003DBD2 /* AppDelegate.swift */,
+				1350D10E1CF3B3E00003DBD2 /* ViewController.swift */,
+				1350D1101CF3B3E00003DBD2 /* Main.storyboard */,
+				1350D1131CF3B3E00003DBD2 /* Assets.xcassets */,
+				1350D1151CF3B3E00003DBD2 /* LaunchScreen.storyboard */,
+				1350D1181CF3B3E00003DBD2 /* Info.plist */,
+			);
+			path = UtilitySmallRingImage;
+			sourceTree = "<group>";
+		};
+		1350D11F1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1350D1201CF3B3E00003DBD2 /* Interface.storyboard */,
+				1350D1231CF3B3E00003DBD2 /* Assets.xcassets */,
+				1350D1251CF3B3E00003DBD2 /* Info.plist */,
+			);
+			path = "UtilitySmallRingImage WatchKit App";
+			sourceTree = "<group>";
+		};
+		1350D12E1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1350D12F1CF3B3E10003DBD2 /* InterfaceController.swift */,
+				1350D1311CF3B3E10003DBD2 /* ExtensionDelegate.swift */,
+				1350D1331CF3B3E10003DBD2 /* ComplicationController.swift */,
+				1350D1351CF3B3E10003DBD2 /* Assets.xcassets */,
+				1350D1371CF3B3E10003DBD2 /* Info.plist */,
+			);
+			path = "UtilitySmallRingImage WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1350D1081CF3B3E00003DBD2 /* UtilitySmallRingImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1350D1421CF3B3E10003DBD2 /* Build configuration list for PBXNativeTarget "UtilitySmallRingImage" */;
+			buildPhases = (
+				1350D1051CF3B3E00003DBD2 /* Sources */,
+				1350D1061CF3B3E00003DBD2 /* Frameworks */,
+				1350D1071CF3B3E00003DBD2 /* Resources */,
+				1350D1411CF3B3E10003DBD2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1350D11E1CF3B3E00003DBD2 /* PBXTargetDependency */,
+			);
+			name = UtilitySmallRingImage;
+			productName = UtilitySmallRingImage;
+			productReference = 1350D1091CF3B3E00003DBD2 /* UtilitySmallRingImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1350D11A1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1350D13E1CF3B3E10003DBD2 /* Build configuration list for PBXNativeTarget "UtilitySmallRingImage WatchKit App" */;
+			buildPhases = (
+				1350D1191CF3B3E00003DBD2 /* Resources */,
+				1350D13D1CF3B3E10003DBD2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1350D12D1CF3B3E00003DBD2 /* PBXTargetDependency */,
+			);
+			name = "UtilitySmallRingImage WatchKit App";
+			productName = "UtilitySmallRingImage WatchKit App";
+			productReference = 1350D11B1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1350D1291CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1350D13A1CF3B3E10003DBD2 /* Build configuration list for PBXNativeTarget "UtilitySmallRingImage WatchKit Extension" */;
+			buildPhases = (
+				1350D1261CF3B3E00003DBD2 /* Sources */,
+				1350D1271CF3B3E00003DBD2 /* Frameworks */,
+				1350D1281CF3B3E00003DBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UtilitySmallRingImage WatchKit Extension";
+			productName = "UtilitySmallRingImage WatchKit Extension";
+			productReference = 1350D12A1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1350D1011CF3B3E00003DBD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "John S. Jacob";
+				TargetAttributes = {
+					1350D1081CF3B3E00003DBD2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1350D11A1CF3B3E00003DBD2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1350D1291CF3B3E00003DBD2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1350D1041CF3B3E00003DBD2 /* Build configuration list for PBXProject "UtilitySmallRingImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1350D1001CF3B3E00003DBD2;
+			productRefGroup = 1350D10A1CF3B3E00003DBD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1350D1081CF3B3E00003DBD2 /* UtilitySmallRingImage */,
+				1350D11A1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit App */,
+				1350D1291CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1350D1071CF3B3E00003DBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1350D1171CF3B3E00003DBD2 /* LaunchScreen.storyboard in Resources */,
+				1350D1141CF3B3E00003DBD2 /* Assets.xcassets in Resources */,
+				1350D1121CF3B3E00003DBD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1350D1191CF3B3E00003DBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1350D1241CF3B3E00003DBD2 /* Assets.xcassets in Resources */,
+				1350D1221CF3B3E00003DBD2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1350D1281CF3B3E00003DBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1350D1361CF3B3E10003DBD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1350D1051CF3B3E00003DBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1350D10F1CF3B3E00003DBD2 /* ViewController.swift in Sources */,
+				1350D10D1CF3B3E00003DBD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1350D1261CF3B3E00003DBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1350D1321CF3B3E10003DBD2 /* ExtensionDelegate.swift in Sources */,
+				1350D1301CF3B3E10003DBD2 /* InterfaceController.swift in Sources */,
+				1350D1341CF3B3E10003DBD2 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1350D11E1CF3B3E00003DBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1350D11A1CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit App */;
+			targetProxy = 1350D11D1CF3B3E00003DBD2 /* PBXContainerItemProxy */;
+		};
+		1350D12D1CF3B3E00003DBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1350D1291CF3B3E00003DBD2 /* UtilitySmallRingImage WatchKit Extension */;
+			targetProxy = 1350D12C1CF3B3E00003DBD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1350D1101CF3B3E00003DBD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1350D1111CF3B3E00003DBD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1350D1151CF3B3E00003DBD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1350D1161CF3B3E00003DBD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1350D1201CF3B3E00003DBD2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1350D1211CF3B3E00003DBD2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1350D1381CF3B3E10003DBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1350D1391CF3B3E10003DBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1350D13B1CF3B3E10003DBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "UtilitySmallRingImage WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamnota.UtilitySmallRingImage.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		1350D13C1CF3B3E10003DBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "UtilitySmallRingImage WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamnota.UtilitySmallRingImage.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		1350D13F1CF3B3E10003DBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = UtilitySmallRingImage_WatchKit_Extension;
+				INFOPLIST_FILE = "UtilitySmallRingImage WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamnota.UtilitySmallRingImage.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		1350D1401CF3B3E10003DBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = UtilitySmallRingImage_WatchKit_Extension;
+				INFOPLIST_FILE = "UtilitySmallRingImage WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamnota.UtilitySmallRingImage.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		1350D1431CF3B3E10003DBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UtilitySmallRingImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamnota.UtilitySmallRingImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1350D1441CF3B3E10003DBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UtilitySmallRingImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamnota.UtilitySmallRingImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1350D1041CF3B3E00003DBD2 /* Build configuration list for PBXProject "UtilitySmallRingImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1350D1381CF3B3E10003DBD2 /* Debug */,
+				1350D1391CF3B3E10003DBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1350D13A1CF3B3E10003DBD2 /* Build configuration list for PBXNativeTarget "UtilitySmallRingImage WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1350D13B1CF3B3E10003DBD2 /* Debug */,
+				1350D13C1CF3B3E10003DBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1350D13E1CF3B3E10003DBD2 /* Build configuration list for PBXNativeTarget "UtilitySmallRingImage WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1350D13F1CF3B3E10003DBD2 /* Debug */,
+				1350D1401CF3B3E10003DBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1350D1421CF3B3E10003DBD2 /* Build configuration list for PBXNativeTarget "UtilitySmallRingImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1350D1431CF3B3E10003DBD2 /* Debug */,
+				1350D1441CF3B3E10003DBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1350D1011CF3B3E00003DBD2 /* Project object */;
+}
