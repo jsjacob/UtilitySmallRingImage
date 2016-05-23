@@ -14,7 +14,7 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
     // MARK: - Timeline Configuration
     
     func getSupportedTimeTravelDirectionsForComplication(complication: CLKComplication, withHandler handler: (CLKComplicationTimeTravelDirections) -> Void) {
-        handler([.Forward, .Backward])
+        handler([])
     }
     
     func getTimelineStartDateForComplication(complication: CLKComplication, withHandler handler: (NSDate?) -> Void) {
@@ -33,7 +33,21 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
     
     func getCurrentTimelineEntryForComplication(complication: CLKComplication, withHandler handler: ((CLKComplicationTimelineEntry?) -> Void)) {
         // Call the handler with the current timeline entry
-        handler(nil)
+        
+        if complication.family == .UtilitarianSmall
+        {
+            let utilitarianImages = UIImage(named: "Complication/Utilitarian")!
+            let ringTemplate = CLKComplicationTemplateUtilitarianSmallRingImage()
+            ringTemplate.imageProvider = CLKImageProvider(onePieceImage: utilitarianImages)
+            ringTemplate.fillFraction = 0.7
+            ringTemplate.ringStyle = .Closed
+            let entry = CLKComplicationTimelineEntry(date: NSDate(), complicationTemplate: ringTemplate)
+            handler(entry)
+        }
+        else
+        {
+            handler(nil)
+        }
     }
     
     func getTimelineEntriesForComplication(complication: CLKComplication, beforeDate date: NSDate, limit: Int, withHandler handler: (([CLKComplicationTimelineEntry]?) -> Void)) {

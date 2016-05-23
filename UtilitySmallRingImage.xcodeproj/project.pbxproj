@@ -225,6 +225,7 @@
 				TargetAttributes = {
 					1350D1081CF3B3E00003DBD2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5EWC2H8U5P;
 					};
 					1350D11A1CF3B3E00003DBD2 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -498,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UtilitySmallRingImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iamnota.UtilitySmallRingImage;
@@ -509,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UtilitySmallRingImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iamnota.UtilitySmallRingImage;
